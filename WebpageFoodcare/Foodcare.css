@@ -1,0 +1,44 @@
+.title{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    color: green;
+    margin: 0;
+}
+.top img{
+    width: 10%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    text-align: center;
+}
+
+.nav{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a{
+    font-size: 20px;
+    font-family: monospace;
+    font-style: normal;
+    padding: 0 50px 0 50px;
+    text-decoration: none;
+    color: black;
+    border: solid black 1px;
+    margin: 0;
+    background-color: yellow;
+}
+
+.active{
+    text-decoration: underline black;
+    font-weight: bold;
+    background-color: #ADFF2F;
+}
