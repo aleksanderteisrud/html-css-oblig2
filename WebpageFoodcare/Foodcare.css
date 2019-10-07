@@ -12,22 +12,30 @@ body{
     font-size: 75px;
     color: green;
     margin: 5px 0 0 0;
+    position:absolute;
+    width: 100%;
 }
 
-.top img{
-    width: 10%;
+#logo1{
+    float:left;
+    height: 136.2px;
+    border-radius: 0 0 65px 0;
 }
-
 
 .top{
     width: 100%;
     text-align: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    padding-bottom: 10px;
 }
 
 .nav{
     width: 100%;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 105px;
+    position:absolute;
 }
 
 a{
@@ -43,6 +51,11 @@ a{
     border-radius: 5px;
 }
 
+a:hover{
+    text-decoration: underline black;
+    font-weight: bold;
+}
+
 .active{
     text-decoration: underline black;
     font-weight: bold;
@@ -53,7 +66,10 @@ a{
 
 .mainhome{
     text-align:center;
-    margin-top: 30px;
+    margin-top: 165px;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
 }
 #eple1{
     height: 524.2px;
@@ -75,6 +91,8 @@ a{
     width: 80%;
     text-align: center;
     margin-left: 10%;
+    margin-top: 165px;
+    position: absolute;
 }
 
 h2{
@@ -88,6 +106,7 @@ p{
     font-family: monospace;
     font-style: normal;
     font-size: 20px;
+    padding: 0 100px 0 100px;
 }
 
 
