@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-/*title and nav*/
+/*TitleNav*/
 
 .title{
     font-family: monospace;
@@ -13,13 +13,17 @@ body{
     color: green;
     margin: 5px 0 0 0;
     position:absolute;
-    width: 100%;
+    width: 40%;
+    margin-left: 30%;
+    border: solid green 2px;
+    border-radius: 100px 0 100px 0;
 }
 
 #logo1{
     float:left;
     height: 136.2px;
     border-radius: 0 0 65px 0;
+    border: solid green 2px;
 }
 
 .top{
@@ -38,31 +42,31 @@ body{
     position:absolute;
 }
 
-a{
+.top a{
     font-size: 20px;
     font-family: monospace;
     font-style: normal;
     padding: 0 50px 0 50px;
     text-decoration: none;
     color: black;
-    border: solid black 1px;
+    border: solid green 2px;
     margin: 0;
     background-color: yellow;
-    border-radius: 5px;
+    border-radius: 25px 0 25px 0;
 }
 
-a:hover{
+.top a:hover{
     text-decoration: underline black;
     font-weight: bold;
 }
 
-.active{
+#active{
     text-decoration: underline black;
     font-weight: bold;
     background-color: #ADFF2F;
 }
 
-/*home-page*/
+/*Home-page*/
 
 .mainhome{
     text-align:center;
@@ -73,19 +77,22 @@ a:hover{
 }
 #eple1{
     height: 524.2px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 200px 0 0 0;
+    border: solid green 2px;
 }
 
 #logo{
     height: 524.2px;
+    border: solid green 2px;
 }
 
 #eple2{
     height: 524.2px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 0 200px 0;
+    border: solid green 2px;
 }
 
-/*about us-page*/
+/*AboutUs-page*/
 
 .aboutmain{
     width: 80%;
@@ -95,19 +102,274 @@ a:hover{
     position: absolute;
 }
 
-h2{
+.aboutmain h2{
     font-family: monospace;
     font-style: normal;
     font-size: 30px;
     font-weight: bold;
 }
 
-p{
+.aboutmain p{
     font-family: monospace;
     font-style: normal;
     font-size: 20px;
     padding: 0 100px 0 100px;
 }
+
+/*Mission-page*/
+.mainmission{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 165px;
+    position: absolute;
+}
+
+.mainmission h2{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mainmission p{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
+    padding: 0 100px 0 100px;
+}
+
+/*WhoAreWe-page*/
+
+.mainwhoarewe{
+}
+
+.axel{
+    width: 80%;
+    background-color: #ADFF2F;
+    position: absolute;
+    margin-top:165px;
+    margin-left: 10%;
+    border-radius: 100px 0 100px 0;
+    border: solid green 2px;
+}
+.axel img{
+    height: 300px;
+    float: left;
+    border-radius: 100px 0 0 0;
+}
+.axel h2{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline black;
+    margin-left: 259.83px;
+}
+.axel p{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 259.83px;
+}
+
+.kristian{
+    width: 80%;
+    background-color: yellow;
+    position: absolute;
+    margin-top: 485px;
+    margin-left: 10%;
+    border-radius: 100px 0 100px 0;
+    border: solid green 2px;
+}
+.kristian img{
+    height: 300px;
+    float: right;
+    border-radius: 0 0 100px;
+}
+.kristian h2{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline black;
+    text-align: right;
+    margin-right: 222.56px;
+}
+.kristian p{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
+    margin-right: 222.56px;
+    text-align: right;
+}
+
+.stian{
+    width: 80%;
+    background-color: #ADFF2F;
+    position: absolute;
+    margin-top: 805px;
+    margin-left: 10%;
+    border-radius: 100px 0 100px 0;
+    border: solid green 2px;
+}
+.stian img{
+    height: 300px;
+    float: left;
+    border-radius: 100px 0 0 0;
+}
+.stian h2{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline black;
+    margin-left: 223.4px;
+}
+.stian p{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 223.4px;
+}
+
+.aleksander{
+    width: 80%;
+    background-color: yellow;
+    position: absolute;
+    margin-top: 1125px;
+    margin-left: 10%;
+    border-radius: 100px 0 100px 0;
+    border: solid green 2px;
+}
+.aleksander img{
+    height: 300px;
+    float: right;
+    border-radius: 0 0 100px 0;
+}
+.aleksander h2{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline black;
+    text-align: right;
+    margin-right: 235.55px;
+}
+.aleksander p{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
+    margin-right: 235.55px;
+    text-align: right;
+}
+
+.mimi{
+    width: 80%;
+    background-color: #ADFF2F;
+    position: absolute;
+    margin-top: 1445px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border-radius: 100px 0 100px 0;
+    border: solid green 2px;
+}
+.mimi img{
+    height: 300px;
+    float:left;
+    border-radius: 100px 0 0 0;
+}
+.mimi h2{
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline black;
+    margin-left: 235.55px;
+}
+.mimi p{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 235.55px;
+}
+
+/*QRCode-page*/
+.mainQR{
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 165px;
+    position: absolute;
+}
+
+.mainQR h2{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    width: 60%;
+    float:left;
+}
+
+.mainQR p{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 20px;
+    width:60%;
+    float:left;
+}
+
+.mainQR img{
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: solid green 2px;
+    border-radius: 50px 0 50px 0;
+}
+
+.mainQR figcaption{
+    font-family:monospace;
+    font-style: normal;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 90px;
+}
+
+/*ContactUs-page*/
+.maincontact{
+    position: absolute;
+    margin-top: 165px;
+    text-align: center;
+    width: 100%;
+}
+
+.maincontact p{
+    font-family: monospace;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.maincontact img{
+    width: 20%;
+    border: solid green 2px;
+    border-radius: 100px 0 100px 0;
+    padding: 0 100px 0 100px;
+}
+
+.maincontact a
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
